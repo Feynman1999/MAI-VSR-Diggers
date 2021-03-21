@@ -19,7 +19,7 @@ Team "Diggers" solution to Mobile AI 2021 Real-Time Video Super-Resolution Chall
 * Linux machine (you do not need to care about cuda version, only need NVIDIA graphics driver version greater than 418)
 * python 3.7
 * `pip3 install megengine -f https://megengine.org.cn/whl/mge.html`
-* `pip install -r requirement.txt `
+* `pip install -r requirements.txt `
 
 ## dataset preparation (REDS)
 
@@ -60,6 +60,8 @@ python tools/train.py configs/restorers/BasicVSR/mai.py --gpuids 0,1,2,3 -d
 ```
 
 > support multi gpus training, change to yours, e.g.  --gpuids 0     --gpuids 0,2       etc...
+
+you can find output information and checkpoints in `.workdirs/...`
 
 ## Testing  (now only support REDS dataset)
 
@@ -147,6 +149,6 @@ python main.py  --mgepath  /xxxxxx/ckpt/epoch_62/generator_module.mge  -n
 
 > notice that to use **absolute** path 
 
-you will get tflite files in the dir `xxx/tflite`
+you will get tflite files in the dir `xxx/tflite/xxx`
 
 and we have supported our pre-built  `model.tflite`  and `model_none.tflite`  in `ckpt` dir
