@@ -17,8 +17,8 @@ Team "Diggers" solution to Mobile AI 2021 Real-Time Video Super-Resolution Chall
 ## install
 
 * Linux machine (you do not need to care about cuda version, only need NVIDIA graphics driver version greater than 418)
-* python 3.7
-* `pip3 install megengine -f https://megengine.org.cn/whl/mge.html`
+* python 3.7  virtual env
+* `pip install megengine -f https://megengine.org.cn/whl/mge.html`
 * `pip install -r requirements.txt `
 
 ## dataset preparation (REDS)
