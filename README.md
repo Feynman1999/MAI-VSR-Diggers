@@ -152,3 +152,6 @@ python main.py  --mgepath  /xxxxxx/ckpt/epoch_62/generator_module.mge  -n
 you will get tflite files in the dir `xxx/tflite/xxx`
 
 and we have supported our pre-built  `model.tflite`  and `model_none.tflite`  in `ckpt` dir
+
+## testing on custum data using tflite
+you can refer to https://github.com/Feynman1999/MAI-VSR-Diggers/issues/2.
