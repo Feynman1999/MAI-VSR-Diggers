@@ -4,7 +4,9 @@
 
 # MAI-VSR-Diggers
 
-Team "Diggers" solution to Mobile AI 2021 Real-Time Video Super-Resolution Challenge
+Team "Diggers" winner solution to Mobile AI 2021 Real-Time Video Super-Resolution Challenge
+
+official report paper: https://arxiv.org/abs/2105.08826
 
 ## Pipeline
 
